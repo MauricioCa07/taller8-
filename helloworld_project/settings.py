@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'helloworld_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'djangoproject',
-        'USER': 'nram94',
-        'PASSWORD': '123456789',
-        'HOST': '104.154.102.101',
+        'NAME': 'djangodb',
+        'USER': 'root',
+        'PASSWORD': 'admin',
+        'HOST': '35.192.132.18',
         'PORT': '3306'
     }
 }
